@@ -1,38 +1,128 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.Image1{
+  position: absolute !important;
+  z-index: 1 !important;
+  left: 0;
+  top: 0;
+}
+.Image2{
+  position: absolute !important;
+  z-index: 1 !important;
+  right: 0;
+  bottom: 0;
+}
+.Auth{
+  width:0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color:white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
+}
+.page{
+  width:413px;
+  display: flex;
+  align-items: center;
+  padding:5px;
+  background-color: rgb(29 78 216);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-items: center;
   color: white;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.Member{
+  text-align: center;
+  color: rgb(82 82 91);
+  font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.signupPage{
+  height: 100%;
+  position: relative;
+  background-color: rgb(229, 237, 246);
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  padding:50px;
+  font-weight: 400;
+  font-size: medium;
+  color: rgb(161 161 170);
+  margin-left: 1500px;
+  margin-top: 50px;
+  min-width: 300px;
+ }
+ .error{
+  color: red;
+  font-size: x-small;
+  margin-bottom: 5px;
+ }
+ .but{
+  width:100px;
+  display: flex;
+  align-items: center;
+  padding:5px;
+  background-color: rgb(29 78 216);
+  justify-content: center;
+  color: white;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 10px;
+ }
+ .thank{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1500px;
+  background-color: rgb(229, 237, 246);
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  padding:30px;
+  font-weight: 400;
+  font-size: medium;
+  color: rgb(161 161 170);
+  margin-top: 150px;
+  min-width: 400px;
+ }
+ .butt{
+  width:200px;
+  display: flex;
+  align-items: center;
+  padding:5px;
+  background-color: rgb(29 78 216);
+  justify-content: center;
+  color: white;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 10px;
+ }
+ 
